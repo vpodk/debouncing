@@ -1,8 +1,8 @@
 {
   "name": "debouncing",
   "type": "module",
-  "version": "21.6.2",
-  "description": "Debouncing and throttling events module from the Glize library.",
+  "version": "21.6.3",
+  "description": "Debouncing and throttling events module from Glize library.",
   "homepage": "https://glize.js.org",
   "repository": "github:Datamart/debouncing",
   "license": "Apache-2.0",
@@ -21,6 +21,7 @@
   },
   "keywords": [
     "debounce",
-    "throttle"
+    "throttle",
+    "glize"
   ]
 }
