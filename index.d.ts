@@ -1,5 +1,8 @@
 // typescript 
 
+declare type Listener = (...args: any[]) => void;
+declare type Callback = () => void;
+
 /**
  * In the debouncing technique, no matter how many times the user fires the 
  * event, the attached function will be executed only after the specified 
@@ -13,7 +16,7 @@
  * @return {!Function} Returns a function, that, as long as it continues 
  *     to be invoked, will not be triggered.
  */
-declare function debounce(func:Function, timeout?:number):Function;
+declare function debounce(func: Callback, timeout?: number): Listener;
 
 // Exposed public method.
 export default debounce;
@@ -30,7 +33,7 @@ export default debounce;
  * @return {!Function} Returns a function, that, as long as it continues 
  *     to be invoked, will only trigger every N milliseconds.
  */
-declare function throttle(func:Function, timeout?:number):Function;
+declare function throttle(func: Callback, timeout?: number): Listener;
 
 // Exposed public method.
 export default throttle;
