@@ -9,7 +9,7 @@
   "main": "./index.js",
   "exports": "./index.js",
   "scripts": {
-    "test": "node ./tests"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "bugs": {
     "url": "https://github.com/Datamart/debouncing/issues"
