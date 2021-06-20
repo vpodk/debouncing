@@ -1,0 +1,26 @@
+{
+  "name": "debouncing",
+  "type": "module",
+  "version": "21.6.0",
+  "description": "Debouncing and throttling events module from the Glize library.",
+  "homepage": "https://glize.js.org",
+  "repository": "github:Datamart/debouncing",
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "bugs": {
+    "url": "https://github.com/Datamart/debouncing/issues"
+  },
+  "author": {
+    "name": "Valentin Podkamennyi",
+    "email": "valentin@dtm.io",
+    "url": "https://vpodk.com/"
+  },
+  "keywords": [
+    "debounce",
+    "throttle"
+  ]
+}
