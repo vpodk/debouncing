@@ -16,10 +16,7 @@ declare type Callback = () => void;
  * @return {!Function} Returns a function, that, as long as it continues 
  *     to be invoked, will not be triggered.
  */
-declare function debounce(func: Callback, timeout?: number): Listener;
-
-// Exposed public method.
-export default debounce;
+export declare function debounce(func: Callback, timeout?: number): Listener;
 
 /**
  * Throttling is a technique in which, no matter how many times the user 
@@ -33,7 +30,4 @@ export default debounce;
  * @return {!Function} Returns a function, that, as long as it continues 
  *     to be invoked, will only trigger every N milliseconds.
  */
-declare function throttle(func: Callback, timeout?: number): Listener;
-
-// Exposed public method.
-export default throttle;
+export declare function throttle(func: Callback, timeout?: number): Listener;
