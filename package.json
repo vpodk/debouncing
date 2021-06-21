@@ -1,7 +1,7 @@
 {
   "name": "debouncing",
   "type": "module",
-  "version": "21.6.6",
+  "version": "21.6.7",
   "description": "Debouncing and throttling events module from Glize library.",
   "homepage": "https://glize.js.org",
   "repository": "github:Datamart/debouncing",
