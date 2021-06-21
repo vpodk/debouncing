@@ -1,13 +1,14 @@
 {
   "name": "debouncing",
   "type": "module",
-  "version": "21.6.5",
+  "version": "21.6.6",
   "description": "Debouncing and throttling events module from Glize library.",
   "homepage": "https://glize.js.org",
   "repository": "github:Datamart/debouncing",
   "license": "Apache-2.0",
   "main": "./index.js",
   "exports": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
