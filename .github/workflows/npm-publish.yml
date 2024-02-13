@@ -5,22 +5,22 @@ name: publish
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-    if: github.repository == 'Datamart/debouncing'
+    if: github.repository == 'vpodk/debouncing'
     runs-on: ubuntu-latest
     timeout-minutes: 2
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 17.x]
+        node-version: [16, 17, 18, 20]
 
     steps:
       - uses: actions/checkout@v2
       - name: Use Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
@@ -31,10 +31,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm publish
