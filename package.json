@@ -4,7 +4,9 @@
   "version": "22.7.25",
   "description": "Debouncing and throttling library optimizes event handling by delaying or limiting function execution.",
   "homepage": "https://github.com/vpodk/debouncing",
-  "repository": "github:vpodk/debouncing",
+  "repository": {
+    "url": "git+https://github.com/vpodk/debouncing.git"
+  },
   "license": "Apache-2.0",
   "main": "./index.js",
   "exports": "./index.js",
@@ -22,7 +24,6 @@
   },
   "keywords": [
     "debounce",
-    "throttle",
-    "glize"
+    "throttle"
   ]
 }

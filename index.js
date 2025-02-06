@@ -2,9 +2,8 @@
  * @fileoverview Debouncing and throttling library optimizes event handling by
  *   delaying or limiting function execution.
  *
- * @see https://google.github.io/styleguide/javascriptguide.xml
- * @see https://developers.google.com/closure/compiler/docs/js-for-compiler
- * @see https://github.com/Datamart/Glize
+ * @see https://google.github.io/styleguide/jsguide.html
+ * @see https://google.github.io/styleguide/tsguide.html
  * @module debouncing
  */
 
