@@ -1,7 +1,7 @@
 {
   "name": "debouncing",
   "type": "module",
-  "version": "22.7.25",
+  "version": "22.7.26",
   "description": "Debouncing and throttling library optimizes event handling by delaying or limiting function execution.",
   "homepage": "https://vpodk.com/debouncing/",
   "repository": {
@@ -9,6 +9,9 @@
   },
   "bugs": {
     "url": "https://github.com/vpodk/debouncing/issues"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/vpodk"
   },
   "license": "Apache-2.0",
   "main": "./index.js",
